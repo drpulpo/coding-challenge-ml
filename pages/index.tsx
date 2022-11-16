@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import CajaBusqueda from '../Components/CajaBusqueda'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+          <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="code-challenge" />
@@ -12,9 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.description}>
-          Formulario de Busqueda
-        </p>
+        <CajaBusqueda/>
       </main>
     </div>
   )

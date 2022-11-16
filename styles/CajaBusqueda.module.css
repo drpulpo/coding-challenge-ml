@@ -1,0 +1,71 @@
+.navHeader{
+    flex:1;
+    height:64px;
+    background-color: #fff159;
+    border: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navHeaderContainer{
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    gap:10px;
+}
+
+.navSpacer{
+    flex:1;
+}
+
+.navLogoSearchContainer{
+    flex:10;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLogo{
+    background-image: url('../public/Logo_ML.png');
+    background-repeat: no-repeat;
+    text-indent: -999px;
+    flex:1;
+}
+
+.searchForm{
+    flex:10;
+    display:flex;
+}
+
+.navInputContainer{
+    flex:10;
+}
+
+.navSearchInput{
+    border: 1px rgba(0,0,0,.2);
+    color: #333;
+    font-size: 16px;
+    border-radius: 2px;
+    margin: 0;
+    background-color: #fff;
+    padding: 10px 10px 10px 35px;
+    box-shadow: none;
+    font-family: inherit;
+    width: 100%;
+}
+
+.navButtonContainer{
+    flex:1;
+}
+
+.navSearchButton{
+    display: inline-block;
+    background-image: url('../public/ic_Search.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 36px;
+    border: none;
+    background-position: 60% 60%;
+    color:#999999;
+}
