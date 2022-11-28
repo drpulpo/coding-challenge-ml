@@ -4,7 +4,7 @@ export default function Breadcrumb(){
 
     return(
             <div>
-                <p>Breadcrumb > Breadcrumb > Breadcrumb</p>
+                <p>Breadcrumb Breadcrumb Breadcrumb</p>
             </div>
 
 
